@@ -29,9 +29,9 @@ export default function Home() {
             Laissez fleurir la <span className="text-sakura-500">joie</span> dans votre quotidien
           </h1>
           <p className="max-w-xl text-lg text-sakura-900/70">
-            Thés parfumés, papeterie délicate, bijoux et bougies inspirés des jardins de
-            cerisiers japonais. Une boutique pensée pour ralentir, sourire et savourer
-            chaque petit instant.
+            T-shirts, bracelets, colliers et crocs inspirés des jardins de cerisiers
+            japonais. Une boutique pensée pour ralentir, sourire et savourer chaque petit
+            instant.
           </p>
           <div className="flex flex-col gap-3 sm:flex-row">
             <Link

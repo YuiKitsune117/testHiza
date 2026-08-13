@@ -24,18 +24,23 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/boutique?categorie=the-infusions" className="hover:text-sakura-600">
-                  Thé & Infusions
+                <Link href="/boutique?categorie=t-shirts" className="hover:text-sakura-600">
+                  T-shirts
                 </Link>
               </li>
               <li>
-                <Link href="/boutique?categorie=bijoux" className="hover:text-sakura-600">
-                  Bijoux
+                <Link href="/boutique?categorie=bracelets" className="hover:text-sakura-600">
+                  Bracelets
                 </Link>
               </li>
               <li>
-                <Link href="/boutique?categorie=maison" className="hover:text-sakura-600">
-                  Bougies & Maison
+                <Link href="/boutique?categorie=colliers" className="hover:text-sakura-600">
+                  Colliers
+                </Link>
+              </li>
+              <li>
+                <Link href="/boutique?categorie=crocs" className="hover:text-sakura-600">
+                  Crocs
                 </Link>
               </li>
             </ul>

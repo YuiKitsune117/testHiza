@@ -20,7 +20,7 @@ const quicksand = Quicksand({
 export const metadata: Metadata = {
   title: "Hanami — Boutique sakura, douceur & bonne humeur",
   description:
-    "Hanami, la boutique qui fait fleurir votre quotidien : thés, papeterie, bijoux et bougies inspirés des cerisiers en fleurs japonais.",
+    "Hanami, la boutique qui fait fleurir votre quotidien : t-shirts, bracelets, colliers et crocs inspirés des cerisiers en fleurs japonais.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

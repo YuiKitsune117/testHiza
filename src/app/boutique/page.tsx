@@ -5,7 +5,7 @@ import { categories, products } from "@/data/products";
 
 export const metadata: Metadata = {
   title: "Boutique — Hanami",
-  description: "Toute la collection Hanami : thés, papeterie, bijoux, bougies et accessoires inspirés des cerisiers en fleurs.",
+  description: "Toute la collection Hanami : t-shirts, bracelets, colliers et crocs inspirés des cerisiers en fleurs.",
 };
 
 export default async function BoutiquePage(props: PageProps<"/boutique">) {

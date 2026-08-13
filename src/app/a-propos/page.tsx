@@ -56,8 +56,8 @@ export default function AProposPage() {
               Tout est parti d&apos;un voyage sous les cerisiers en fleurs de Kyoto, et
               d&apos;une envie simple : prolonger cette sensation de paix et de beauté au
               quotidien. Depuis, nous parcourons le Japon et sélectionnons avec amour des
-              thés, des papeteries, des bijoux et des objets qui racontent cette même
-              histoire de douceur.
+              t-shirts, des bijoux et des sabots qui racontent cette même histoire de
+              douceur.
             </p>
           </div>
           <div>
