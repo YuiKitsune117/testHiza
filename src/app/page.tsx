@@ -23,7 +23,7 @@ export default function Home() {
         <SakuraPetals />
         <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 py-24 text-center sm:px-6 sm:py-32">
           <span className="font-heading rounded-full bg-sakura-100 px-4 py-1.5 text-sm font-semibold text-sakura-700">
-            🌸 Nouvelle collection Hanami est arrivée
+            🌸 Nouvelle collection Hizakura est arrivée
           </span>
           <h1 className="font-heading max-w-3xl text-4xl font-bold text-sakura-900 sm:text-6xl">
             Laissez fleurir la <span className="text-sakura-500">joie</span> dans votre quotidien
@@ -116,7 +116,7 @@ export default function Home() {
           « Ichi-go ichi-e » — chaque instant ne se vit qu&apos;une fois
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-sakura-900/70">
-          Comme les fleurs de cerisier qui n&apos;éclosent que quelques jours par an, Hanami
+          Comme les fleurs de cerisier qui n&apos;éclosent que quelques jours par an, Hizakura
           vous invite à célébrer la beauté fragile du quotidien. Nos produits sont choisis
           pour vous aider à ralentir, respirer et savourer ce qui compte vraiment.
         </p>

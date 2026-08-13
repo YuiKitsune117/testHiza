@@ -3,8 +3,8 @@ import Link from "next/link";
 import SakuraPetals from "@/components/SakuraPetals";
 
 export const metadata: Metadata = {
-  title: "À propos — Hanami",
-  description: "Découvrez l'histoire et les valeurs de Hanami, la boutique inspirée des cerisiers en fleurs japonais.",
+  title: "À propos — Hizakura",
+  description: "Découvrez l'histoire et les valeurs de Hizakura, la boutique inspirée des cerisiers en fleurs japonais.",
 };
 
 const VALUES = [
@@ -38,10 +38,11 @@ export default function AProposPage() {
         <div className="relative z-10 mx-auto max-w-3xl px-4 text-center sm:px-6">
           <h1 className="font-heading text-4xl font-bold text-sakura-900">Notre histoire</h1>
           <p className="mt-4 text-lg text-sakura-900/70">
-            Hanami (花見) signifie « regarder les fleurs » en japonais : la tradition
-            millénaire qui célèbre la floraison éphémère des cerisiers. Nous avons créé
-            cette boutique pour offrir, toute l&apos;année, cette même sensation de
-            légèreté et d&apos;émerveillement.
+            Hizakura tire son nom du japonais 緋桜, littéralement « cerisier éclatant » —
+            un clin d&apos;œil à la tradition du hanami (花見), l&apos;art millénaire de
+            contempler la floraison éphémère des cerisiers. Nous avons créé cette
+            boutique pour offrir, toute l&apos;année, cette même sensation de légèreté
+            et d&apos;émerveillement.
           </p>
         </div>
       </section>

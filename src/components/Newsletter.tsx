@@ -11,7 +11,7 @@ export default function Newsletter() {
   }
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-sakura-500 to-sakura-600 py-16">
+    <section className="relative overflow-hidden bg-gradient-to-br from-sakura-500 via-sakura-600 to-lilac-600 py-16">
       <div className="mx-auto max-w-2xl px-4 text-center sm:px-6">
         <p className="text-3xl" aria-hidden="true">
           🌸
@@ -20,13 +20,13 @@ export default function Newsletter() {
           10% offerts pour votre première commande
         </h2>
         <p className="mt-3 text-sakura-50">
-          Rejoignez le jardin Hanami et recevez nos nouveautés, nos conseils bien-être et
+          Rejoignez le jardin Hizakura et recevez nos nouveautés, nos conseils bien-être et
           une pluie de bonnes vibrations, une fois par mois seulement.
         </p>
 
         {submitted ? (
           <p className="mt-6 rounded-full bg-white/15 px-6 py-3 font-heading font-semibold text-white">
-            Merci et bienvenue dans la famille Hanami ! 🌸 Votre code : SAKURA10
+            Merci et bienvenue dans la famille Hizakura ! 🌸 Votre code : SAKURA10
           </p>
         ) : (
           <form

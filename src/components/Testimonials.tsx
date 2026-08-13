@@ -11,7 +11,7 @@ const TESTIMONIALS = [
   },
   {
     name: "Yuki T.",
-    text: "J'ai offert le coffret bougie + carnet à ma sœur, elle ne s'en sépare plus. Hanami, c'est un peu de Japon et beaucoup de sourires.",
+    text: "J'ai offert le bracelet et le collier assortis à ma sœur, elle ne les enlève plus. Hizakura, c'est un peu de Japon et beaucoup de sourires.",
     rating: 5,
   },
 ];

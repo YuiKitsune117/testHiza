@@ -4,8 +4,8 @@ import ProductCard from "@/components/ProductCard";
 import { categories, products } from "@/data/products";
 
 export const metadata: Metadata = {
-  title: "Boutique — Hanami",
-  description: "Toute la collection Hanami : t-shirts, bracelets, colliers et crocs inspirés des cerisiers en fleurs.",
+  title: "Boutique — Hizakura",
+  description: "Toute la collection Hizakura : t-shirts, bracelets, colliers et crocs inspirés des cerisiers en fleurs.",
 };
 
 export default async function BoutiquePage(props: PageProps<"/boutique">) {

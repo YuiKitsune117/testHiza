@@ -20,6 +20,17 @@
   --gold-400: #e6bd7a;
   --gold-500: #d6a35a;
 
+  --lilac-50: #faf7fd;
+  --lilac-100: #f0e6fa;
+  --lilac-200: #e2ccf4;
+  --lilac-300: #c5a5e5;
+  --lilac-400: #ac82d6;
+  --lilac-500: #9166c2;
+  --lilac-600: #7650a3;
+  --lilac-700: #5d3f81;
+  --lilac-800: #453061;
+  --lilac-900: #2e2043;
+
   --font-heading: var(--font-poppins);
   --font-body: var(--font-quicksand);
 }
@@ -43,6 +54,17 @@
   --color-matcha-500: var(--matcha-500);
   --color-gold-400: var(--gold-400);
   --color-gold-500: var(--gold-500);
+
+  --color-lilac-50: var(--lilac-50);
+  --color-lilac-100: var(--lilac-100);
+  --color-lilac-200: var(--lilac-200);
+  --color-lilac-300: var(--lilac-300);
+  --color-lilac-400: var(--lilac-400);
+  --color-lilac-500: var(--lilac-500);
+  --color-lilac-600: var(--lilac-600);
+  --color-lilac-700: var(--lilac-700);
+  --color-lilac-800: var(--lilac-800);
+  --color-lilac-900: var(--lilac-900);
 
   --font-sans: var(--font-body);
   --font-heading: var(--font-heading);
@@ -109,7 +131,9 @@ h4,
 }
 
 .bg-noise-fade {
-  background: radial-gradient(ellipse at top, var(--sakura-100), transparent 60%);
+  background:
+    radial-gradient(ellipse at top, var(--sakura-100), transparent 60%),
+    radial-gradient(ellipse at bottom right, var(--lilac-100), transparent 55%);
 }
 
 ::selection {

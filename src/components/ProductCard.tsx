@@ -5,7 +5,7 @@ import AddToCartButton from "@/components/AddToCartButton";
 
 const BADGE_STYLES: Record<string, string> = {
   Nouveau: "bg-matcha-500 text-white",
-  "Coup de cœur": "bg-gold-500 text-white",
+  "Coup de cœur": "bg-lilac-500 text-white",
   "Best-seller": "bg-sakura-600 text-white",
 };
 

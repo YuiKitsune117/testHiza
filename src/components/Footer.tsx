@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-4">
           <div>
             <p className="font-heading flex items-center gap-2 text-lg font-bold text-sakura-700">
-              <span aria-hidden="true">🌸</span> Hanami
+              <span aria-hidden="true">🌸</span> Hizakura
             </p>
             <p className="mt-3 text-sm leading-relaxed text-sakura-900/70">
               Une boutique pensée comme un jardin de cerisiers : de la douceur, de la
@@ -82,7 +82,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 flex flex-col items-center justify-between gap-3 border-t border-sakura-200/70 pt-6 text-xs text-sakura-900/60 sm:flex-row">
-          <p>© {new Date().getFullYear()} Hanami — Fait avec 🌸 et beaucoup de positivité.</p>
+          <p>© {new Date().getFullYear()} Hizakura — Fait avec 🌸 et beaucoup de positivité.</p>
           <p>Chaque commande fait fleurir un sourire.</p>
         </div>
       </div>

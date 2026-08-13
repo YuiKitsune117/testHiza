@@ -22,7 +22,7 @@ export async function generateMetadata(
   const product = getProductBySlug(slug);
   if (!product) return {};
   return {
-    title: `${product.name} — Hanami`,
+    title: `${product.name} — Hizakura`,
     description: product.short,
   };
 }

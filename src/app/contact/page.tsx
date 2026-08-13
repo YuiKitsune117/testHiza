@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact — Hanami",
-  description: "Une question, une envie particulière ? L'équipe Hanami est là pour vous répondre avec le sourire.",
+  title: "Contact — Hizakura",
+  description: "Une question, une envie particulière ? L'équipe Hizakura est là pour vous répondre avec le sourire.",
 };
 
 const INFOS = [
   { emoji: "📍", title: "Adresse", text: "12 rue des Cerisiers, 75011 Paris" },
-  { emoji: "✉️", title: "E-mail", text: "bonjour@hanami-boutique.fr" },
+  { emoji: "✉️", title: "E-mail", text: "bonjour@hizakura-boutique.fr" },
   { emoji: "⏰", title: "Horaires", text: "Lundi – Samedi, 10h – 19h" },
 ];
 

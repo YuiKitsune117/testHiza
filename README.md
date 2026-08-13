@@ -1,9 +1,8 @@
-# 🌸 Hanami — Boutique e-commerce sakura
+# 🌸 Hizakura — Boutique e-commerce sakura
 
-Hanami est une boutique e-commerce de démonstration sur le thème des cerisiers en
-fleurs japonais : douceur, positivité et bonne humeur. Elle propose des thés,
-de la papeterie, des bijoux, des bougies et des accessoires, avec un panier
-fonctionnel côté client.
+Hizakura est une boutique e-commerce de démonstration sur le thème des cerisiers en
+fleurs japonais : douceur, positivité et bonne humeur. Elle propose des t-shirts,
+bracelets, colliers et crocs, avec un panier fonctionnel côté client.
 
 ## Stack
 
