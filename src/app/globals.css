@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fffaf8;
+  --foreground: #4a2b32;
+
+  --sakura-50: #fff5f8;
+  --sakura-100: #ffe6ee;
+  --sakura-200: #ffcadd;
+  --sakura-300: #ffa2c1;
+  --sakura-400: #fb79a6;
+  --sakura-500: #f2578a;
+  --sakura-600: #d63d70;
+  --sakura-700: #ab2c58;
+  --sakura-800: #7f2143;
+  --sakura-900: #521730;
+
+  --matcha-400: #a3c17f;
+  --matcha-500: #87a866;
+  --gold-400: #e6bd7a;
+  --gold-500: #d6a35a;
+
+  --font-heading: var(--font-poppins);
+  --font-body: var(--font-quicksand);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-sakura-50: var(--sakura-50);
+  --color-sakura-100: var(--sakura-100);
+  --color-sakura-200: var(--sakura-200);
+  --color-sakura-300: var(--sakura-300);
+  --color-sakura-400: var(--sakura-400);
+  --color-sakura-500: var(--sakura-500);
+  --color-sakura-600: var(--sakura-600);
+  --color-sakura-700: var(--sakura-700);
+  --color-sakura-800: var(--sakura-800);
+  --color-sakura-900: var(--sakura-900);
+
+  --color-matcha-400: var(--matcha-400);
+  --color-matcha-500: var(--matcha-500);
+  --color-gold-400: var(--gold-400);
+  --color-gold-500: var(--gold-500);
+
+  --font-sans: var(--font-body);
+  --font-heading: var(--font-heading);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-heading {
+  font-family: var(--font-heading), sans-serif;
+}
+
+/* Falling sakura petals ambience */
+.petal-field {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.petal {
+  position: absolute;
+  top: -10%;
+  font-size: 1.25rem;
+  opacity: 0.75;
+  will-change: transform;
+  animation-name: petal-fall, petal-sway;
+  animation-timing-function: linear, ease-in-out;
+  animation-iteration-count: infinite, infinite;
+}
+
+@keyframes petal-fall {
+  0% {
+    transform: translateY(-10vh) rotate(0deg);
+  }
+  100% {
+    transform: translateY(120vh) rotate(360deg);
+  }
+}
+
+@keyframes petal-sway {
+  0%,
+  100% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .petal {
+    animation: none;
+    display: none;
+  }
+}
+
+.bg-noise-fade {
+  background: radial-gradient(ellipse at top, var(--sakura-100), transparent 60%);
+}
+
+::selection {
+  background: var(--sakura-200);
+  color: var(--sakura-900);
+}
